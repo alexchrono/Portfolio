@@ -3,7 +3,7 @@ html, body {
     margin: 0;
 }
 
-.row, .col-12 {
+.row, .col-8,.col-4 {
     height: 100%;
 }
 
@@ -27,11 +27,11 @@ html, body {
 .redBorder {
     position: absolute;
     top: 49.5%;
-    left: 50%;
+    left: 67%;
     transform: translate(-50%, -50%);
-    width: calc(100% - 28%);
+    width: calc(100% - 52%);
     height: calc(100% - 17.5%);
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
 }

@@ -24,6 +24,10 @@ html, body {
     height: 100%;
     max-height: 100%;
 }
+.img-fluid3 {
+    width: auto;
+    height: 100%;
+}
 .redBorder {
     position: absolute;
     top: 49.5%;
@@ -31,7 +35,7 @@ html, body {
     transform: translate(-50%, -50%);
     width: calc(100% - 52%);
     height: calc(100% - 17.5%);
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
 }
@@ -81,4 +85,44 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.contain-bio{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    width: auto;
+    height: 37%;
+    max-height:40%;
+    margin-top:3%;
+    position: relative;
+}
+
+.centerz {
+
+    width: 80%;
+    margin-top:5%;
+    position: relative;
+    text-align: center;
+}
+.centerz img {
+    border-radius: 50px;
+}
+
+.name {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    height: 10%;
+}
+
+.tweak {
+    margin-top: 0px;
+    margin-left: 3%;
+}
+
+.fancy-text {
+    height: 50%;
+    margin: 0px 11%;
 }

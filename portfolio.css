@@ -6,6 +6,9 @@ html, body {
 .row, .col-8,.col-4 {
     height: 100%;
 }
+.col-8 {
+    background-color: black;
+}
 
 .flexer-image {
     display: flex;
@@ -18,6 +21,20 @@ html, body {
 .img-fluid {
     width: 100%;
     height: auto;
+}
+.layover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    display: none;
+}
+.colm1:hover .layover{
+    /* width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5; */
+    display: flex;
 }
 .img-fluid2 {
     width: 100%;
@@ -125,4 +142,155 @@ html, body {
 .fancy-text {
     height: 50%;
     margin: 0px 11%;
+}
+
+.centralPic {
+    position: absolute;
+    top: 50.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 52%);
+    height: calc(100% - 52.5%);
+    max-height: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+
+}
+.centralPic img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.colm1 {
+    position: absolute;
+    top: 50.2%;
+    left: 11.1%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% - 5.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.colm2 {
+    position: absolute;
+    top: 50.2%;
+    left: 37.1%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% - 5.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.colm3 {
+    position: absolute;
+    top: 50.2%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% - 5.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+}
+.colm4 {
+    position: absolute;
+    top: 50.2%;
+    left: 88.5%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% - 5.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.colm11 {
+    position: absolute;
+    top: 53%;
+    left: 11.4%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% - 5.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.colm44 {
+    position: absolute;
+    top: 53.2%;
+    left: 88.7%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% - 5.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.colm100 {
+    position: absolute;
+    top: 102.2%;
+    left: 11.5%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% + 82.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+    z-index: 3;
+}
+.colm100Back {
+    position: absolute;
+    top: 102.2%;
+    left: 11.5%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% + 82.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+    z-index: 2;
+}
+.colm101 {
+    position: absolute;
+    top: 102.2%;
+    left: 88.65%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% + 82.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+    z-index: 3;
+}
+.colm101Back {
+    position: absolute;
+    top: 102.2%;
+    left: 88.65%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 78%);
+    /* max-width: calc(100% - 81%); */
+    height: calc(100% + 82.5%);
+    /* max-height: 50%; */
+    /* border: 2px solid red; */
+    display: flex;
+    z-index: 2;
 }

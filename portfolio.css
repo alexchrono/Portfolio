@@ -27,7 +27,7 @@ html, body {
     height: 100%;
     position: absolute;
     z-index: 5;
-    display: none;
+    /* display: none; */
 }
 .colm1:hover .layover{
     /* width: 100%;
@@ -318,7 +318,7 @@ html, body {
 
 .colm22 {
     position: absolute;
-    top: 50.2%;
+    top: 53.2%;
     left: 37.1%;
     transform: translate(-50%, -50%);
     width: calc(100% - 78%);
@@ -331,7 +331,7 @@ html, body {
 
 .colm33 {
     position: absolute;
-    top: 50.2%;
+    top: 53.2%;
     left: 63%;
     transform: translate(-50%, -50%);
     width: calc(100% - 78%);
@@ -340,4 +340,22 @@ html, body {
     /* max-height: 50%; */
     /* border: 2px solid red; */
     display: flex;
+}
+
+.midc {
+
+    left: -3%;
+    top: -1;
+    width: 106%;
+    height: 100%;
+
+}
+
+.midc1 {
+
+    left: -5.4%;
+    top: -2%;
+    width: 108%;
+    height: 105%;
+
 }

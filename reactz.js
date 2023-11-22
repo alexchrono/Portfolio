@@ -17,9 +17,12 @@ function changeContent(source) {
         // ... set text for other elements
         dynamicText.appendChild(paragraph1)
         dynamicText.appendChild(paragraph2)
+        document.querySelector('.colm1 .layover1').style.display = 'none';
+
         document.querySelector('.colm2 .layover').style.display = 'flex';
     }
     else if (source === 'colm3') {
+        document.querySelector('.colm1 .layover1').style.display = 'none';
         document.querySelector('.colm3 .layover').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
@@ -37,6 +40,7 @@ function changeContent(source) {
 
     }
     else if (source === 'colm4') {
+        document.querySelector('.colm1 .layover1').style.display = 'none';
         document.querySelector('.colm4 .layover').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
@@ -54,6 +58,7 @@ function changeContent(source) {
 
     }
     else if (source === 'colm11') {
+        document.querySelector('.colm1 .layover1').style.display = 'none';
         document.querySelector('.colm11 .layover').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
@@ -71,6 +76,7 @@ function changeContent(source) {
 
     }
     else if (source === 'colm22') {
+        document.querySelector('.colm1 .layover1').style.display = 'none';
         document.querySelector('.colm22 .layover').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
@@ -88,6 +94,7 @@ function changeContent(source) {
 
     }
     else if (source === 'colm33') {
+        document.querySelector('.colm1 .layover1').style.display = 'none';
         document.querySelector('.colm33 .layover').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
@@ -106,6 +113,7 @@ function changeContent(source) {
     }
 
     else if (source === 'colm44') {
+        document.querySelector('.colm1 .layover1').style.display = 'none';
         document.querySelector('.colm44 .layover').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
@@ -125,7 +133,7 @@ function changeContent(source) {
 
 
     else if (source === 'default' || source === 'colm1') {
-        document.querySelector('.colm1 .layover').style.display = 'flex';
+        document.querySelector('.colm1 .layover1').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
 

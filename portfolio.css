@@ -29,6 +29,13 @@ html, body {
     z-index: 5;
     display: none;
 }
+.layover1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    /* display: none; */
+}
 .colm1:hover .layover{
     /* width: 100%;
     height: 100%;

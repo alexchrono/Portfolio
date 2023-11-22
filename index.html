@@ -16,15 +16,19 @@
         </div>
         </div> -->
         <div class="name">
-        <h1>Alex Heasley</h1>
+        <h1 class="bigName">Alex Heasley</h1>
         <img src='./public/horiz-divider2.png' class="img-fluid tweak">
     </div>
     <div class="fancy-text">
+        <img src="./public/scrollParchFix.png" class="reposition"/>
+        <div id="aboutMe">
+
         <p>Hello and welcome to my humble portfolio.  Please Make yourself at home and enjoy your stay.</p>
         <p>I am passionate about well scripted television, anime, and my cat Shyla. Oh!...and coding! first and foremost coding.  There is no greater feeling in the world than developing something new and sleek.  It truly fills a void I never knew I had.</p>
         <p>When It comes to coding and learning new computer languages, one thing that sets me apart is the mindset in which I learn foreign languages.  THe question is not what I am able to say...the question is what do I WANT to say? I made this distinction long ago and live by it.  I am never satisfied until I can fully express myself. </p>
         <p>Another student may always reply with "I'm doing well, and you?" where myself will not be satisfied until I find the freedom to say "Kind of had a crappy morning. Stubbed my toe, burned breakfast...then the ex called". </p>
         <p></p>
+    </div>
 
     </div>
 
@@ -44,13 +48,13 @@
             </div>
             <div class="topRow">
                 <img src="./public/topRow.png" class="img-fluid2">
-                <div class="colm1">
+                <div class="colm1" onmouseover="changeContent('colm1')">
 
                     <img src="./public/topleftDumb.png" class="img-fluid">
                     <img src="./public/trianglesAllSidesAnimationStart200.gif" class="layover fine">
                 </div>
                 <a href="https://moodify-s91r.onrender.com/">
-                <div class="colm2">
+                <div class="colm2" onmouseover="changeContent('Moodify')">
 
                     <img src="./public/moodify.png" class="img-fluid">
 
@@ -58,13 +62,13 @@
                 </div>
             </a>
             <a href="https://lue.onrender.com/">
-                <div class="colm3">
+                <div class="colm3" onmouseover="changeContent('colm3')">
                     <img src="./public/LevelUpEverythingyo.png" class="img-fluid">
                     <img src="./public/trianglesAllSidesAnimationStart200.gif" class="layover midc1">
                 </div>
             </a>
             <a href="https://github.com/alexchrono">
-                <div class="colm4">
+                <div class="colm4" onmouseover="changeContent('colm4')">
                     <img src="./public/topRightGitHub.png" class="img-fluid">
                     <img src="./public/trianglesAllSidesAnimationStart200.gif" class="layover fine">
                 </div>
@@ -94,20 +98,20 @@
             <div class="topRow4">
                 <img src="./public/layer41onepixleftonepixright.png" class="img-fluid2">
                 <a href="https://www.linkedin.com/in/alexander-heasley-1979732a0/">
-                <div class="colm11">
+                <div class="colm11" onmouseover="changeContent('colm11')">
                     <img src="./public/LinkedInbottomLeft.png" class="img-fluid">
                     <img src="./public/trianglesAllSidesAnimationStart200.gif" class="layover">
                 </div>
             </a>
-                <div class="colm22">
+                <div class="colm22" onmouseover="changeContent('colm22')">
                     <img src="./public/islandLuxury2.png" class="img-fluid">
                     <img src="./public/trianglesAllSidesAnimationStart200.gif" class="layover midc">
                 </div>
-                <div class="colm33">
+                <div class="colm33" onmouseover="changeContent('colm33')">
                     <img src="./public/languages.png" class="img-fluid">
                     <img src="./public/trianglesAllSidesAnimationStart200.gif" class="layover midc">
                 </div>
-                <div class="colm44">
+                <div class="colm44" onmouseover="changeContent('colm44')">
                     <img src="./public/contactGreatGood3.png" class="img-fluid">
                     <img src="./public/trianglesAllSidesAnimationStart200.gif" class="layover">
                 </div>
@@ -118,5 +122,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="reactz.js"></script>
 </body>
 </html>

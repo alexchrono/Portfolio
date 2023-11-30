@@ -22,12 +22,20 @@ html, body {
     width: 100%;
     height: auto;
 }
+
 .layover {
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: 5;
     display: none;
+}
+.layover1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    /* display: none; */
 }
 .colm1:hover .layover{
     /* width: 100%;
@@ -157,13 +165,22 @@ html, body {
 
 .tweak {
     margin-top: 0px;
-    margin-left: 3%;
+    margin-left: 1.56%;
 }
 
 .fancy-text {
     height: 50%;
-    margin: 0px 11%;
+    /* margin: 0px 17%; */
+    margin-left: 21%;
+    margin-right: 17%;
+    margin-top: 20%;
+    font-size: 1.04em;
+    font-weight: bold;
 }
+/* .fancy-text {
+    height: 50%;
+    margin: 0px 11%;
+} */
 
 .centralPic {
     position: absolute;
@@ -365,4 +382,33 @@ html, body {
     top: -2%;
     width: 100%;
     height: 105%;
+}
+
+.reposition {
+    left: -3.2%;
+    top: 10%;
+    position: absolute;
+    z-index: -1;
+    width: 36%;
+    height: 92%;
+}
+
+.bigName {
+    font-size:3em;
+}
+
+.centerProject {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.linetwo {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.centerScreenRecords {
+    width: 100%;
+    height: auto;
 }

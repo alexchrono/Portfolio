@@ -18,7 +18,7 @@ function changeContent(source) {
         // const holderImg= document.createElement('img')
         // holderImg.src="./public/MoodifyScreenshot.PNG"
         // holderImg.className ='centerScreenRecords'
-        centerPicDisplay.src = './public/MoodifyScreenshot.PNG'
+        centerPicDisplay.src = './public/MoodifyScreenshotPerfectedCroppedRight.PNG'
         paragraph1.textContent = 'Moodify';
         paragraph1.className = 'centerProject'
         paragraph2.textContent = 'A group project';
@@ -43,7 +43,7 @@ function changeContent(source) {
         const paragraph4 = document.createElement('p');
 
         // Default content
-        centerPicDisplay.src = './public/levelUpScreenShot.png'
+        centerPicDisplay.src = './public/levelUpToEditCroppedPerfectToGo.png'
         paragraph1.textContent = 'Level Up Everything.';
         paragraph1.className = 'centerProject'
         paragraph2.textContent = 'A single Capstone project';
@@ -63,7 +63,7 @@ function changeContent(source) {
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
         const link = document.createElement('a')
-        centerPicDisplay.src = './public/GitHub-logo.png';
+        centerPicDisplay.src = './public/GitHub-logo-cropped-edited-perfected.png';
 
         // Default content
         paragraph1.textContent = 'Github';
@@ -72,7 +72,7 @@ function changeContent(source) {
         link.href = 'https://github.com/alexchrono';
         link.textContent = 'https://github.com/alexchrono';
         link.target = '_blank';
-        
+
 
         paragraph3.appendChild(link);
         // paragraph4.textContent = `final stuff`
@@ -88,9 +88,11 @@ function changeContent(source) {
         document.querySelector('.colm11 .layover').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
+        centerPicDisplay.src = './public/linkedInCroppedEditedPerfect.png'
 
         // Default content
-        paragraph1.textContent = 'Linked in description';
+        paragraph1.textContent = 'Linked in';
+        paragraph1.className = 'centerProject';
         paragraph2.textContent = 'Some lines explaining Linked in';
         paragraph3.textContent = 'some more stuff about Li.'
         paragraph4.textContent = `final stuff`
@@ -106,6 +108,7 @@ function changeContent(source) {
         document.querySelector('.colm22 .layover').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
+        centerPicDisplay.src = './public/islandLuxuryForScreenshotEditedGreat.jpg'
 
         // Default content
         paragraph1.textContent = 'Island Luxury schpeal';
@@ -143,6 +146,7 @@ function changeContent(source) {
         document.querySelector('.colm44 .layover').style.display = 'flex';
         const paragraph3 = document.createElement('p');
         const paragraph4 = document.createElement('p');
+
 
         // Default content
         paragraph1.textContent = 'this contact info';

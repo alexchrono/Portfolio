@@ -1,3 +1,7 @@
+function displayTech(){
+   console.log('OK IN HERE')
+}
+
 function changeContent(source) {
     const dynamicText = document.getElementById('aboutMe');
     const layovers = document.querySelectorAll('.layover');

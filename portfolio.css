@@ -190,13 +190,22 @@ body {
 }
 
 .fancy-text {
-    height: 50%;
-    /* margin: 0px 17%; */
+    height: 76%;
     margin-left: 21%;
     margin-right: 17%;
     margin-top: 20%;
     font-size: 1.04em;
     font-weight: bold;
+    overflow-y: scroll;
+}
+
+.fancy-text::-webkit-scrollbar {
+    display: none;
+}
+
+.fancy-text {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
 
 /* .fancy-text {

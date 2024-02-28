@@ -2783,7 +2783,7 @@ textarea:focus::placeholder {
   font-size: 26px;
   text-transform: capitalize;
   font-weight: 500;
-  color: var(--common-black);
+  color: white;
   font-family: "Roboto Slab", serif;
   margin-bottom: 8px;
 }

@@ -2022,6 +2022,7 @@ textarea:focus::placeholder {
 
 .bostami-page-title-wrap p {
   max-width: 632px;
+  color: white;
 }
 
 .page-title {
@@ -2030,6 +2031,7 @@ textarea:focus::placeholder {
   font-family:
     Roboto Slab,
     serif;
+  color: white;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   lg,
@@ -2072,13 +2074,15 @@ textarea:focus::placeholder {
 }
 
 .bostami-page-content-wrap {
-  background-color: var(--common-white);
+  background-color: black;
   border-radius: 20px;
+  color: white;
 }
 
 .bostami-section-title-wrap .section-title {
   margin-bottom: 0;
   font-weight: 500;
+  color: white;
 }
 .bostami-section-title-wrap .section-title i {
   font-size: 30px;
@@ -2704,7 +2708,7 @@ textarea:focus::placeholder {
 .bostami-parsonal-info-area {
   width: 400px;
   border-radius: 20px;
-  background-color: var(--common-white);
+  background-color: black;
   text-align: center;
   padding: 40px 30px;
   margin-left: -100px;
@@ -3219,6 +3223,7 @@ box-sizing:  border-box;
 .bostami-what-do-item .text p {
   margin-bottom: 0;
   line-height: 30px;
+  color: white;
 }
 
 .bostami-page-wrap .client-2-wrap {

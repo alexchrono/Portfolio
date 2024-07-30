@@ -55,7 +55,7 @@ window.onload = function() {
 
 
         let pdfIframe = document.createElement('iframe');
-        pdfIframe.setAttribute('src', 'https://docs.google.com/document/d/e/2PACX-1vTWCXV4B8a-64tXUtuX-FtGooIfm1dZsQG9FfaCov0ndYffEPn2iPLcNZeIsHPHfyC4FKNcVWnyJyOE/pub?embedded=true');
+        pdfIframe.setAttribute('src', 'https://docs.google.com/document/d/e/2PACX-1vRfCdn4X-E1GVjEtNY8dumkwBXlrYaWDDzoAgVw4B1Z0n27UU757METBrOKMf_zYcoSAWbzUrKPIACR/pub?embedded=true');
 
 
         pdfIframe.style.width = '100%';
